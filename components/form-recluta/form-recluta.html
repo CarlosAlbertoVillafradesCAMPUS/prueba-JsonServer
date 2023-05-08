@@ -1,0 +1,55 @@
+<fieldset>
+    <legend>Agregar nuevo Recluta</legend>
+    <form id="formularioReclutas">
+        <label for="nameRecluta">Nombre Recluta</label>
+        <input required type="text" name="nameRecluta" placeholder="Nombre del Recluta"> <br><br>
+
+        <label for="edad">Edad</label>
+        <input required type="text" name="edad" placeholder="Edad"> <br><br>
+
+        <label for="telefono">Telefono</label>
+        <input required type="tel" name="telefono" placeholder="telefono"><br><br>
+
+        <label for="email">Email</label>
+        <input required type="email" name="email" placeholder="email"><br><br>
+
+        <label for="direccion">Direccion</label>
+        <input required type="text" name="direccion" placeholder="direccion"><br><br>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+        <input required type="date" name="fechaNacimiento" placeholder="fecha Nacimiento"><br><br>
+
+        <label for="numIdentificacion">Numero identificacion</label>
+        <input required type="number" name="numIdentificacion" placeholder="Numero identificacion"><br><br>
+
+        <label for="fechaIngreso">Fecha Ingreso al Programa</label>
+        <input required type="date" name="fechaIngreso" placeholder="Fecha Ingreso"><br><br>
+
+        <label for="optionTeam">Team</label>
+        <select name="id_team" id="optionTeam">
+           
+        </select> <br><br>
+
+        <button type="submit" id="Agregar">Agregar</button>
+        <button type="button" id="btnRegistro">Mostrar Registro</button>
+    </form>
+</fieldset>
+<div>
+    <h1>Filtros</h1>
+    <label for="mayorMeses">Reclutas con mas de 2 meses en el programa--</label>
+    <input type="button" value="Filtrar" id="mayorMeses"> <br><br>
+    
+    <label for="teams">filtrar por Team</label>
+    <select name="teams" id="selectTeamFilter"></select></div>
+<div class="registro">
+    
+</div>
+
+<style>
+    .registro{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-content: center;
+    }
+</style>

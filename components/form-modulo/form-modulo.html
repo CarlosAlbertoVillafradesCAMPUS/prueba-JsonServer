@@ -1,0 +1,41 @@
+<fieldset>
+    <legend>Agregar Nuevo Modulo</legend>
+    <form id="formularioModulo">
+        <label for="nombre">Nombre del Modulo</label>
+        <input required type="text" name="nombre" placeholder="Nombre del modulo"> <br><br>
+        <section>
+            
+            <label for="id_skill">skills del modulo</label>
+            <div id="containerSkills">
+
+            </div>
+        </section>
+        
+
+        <button type="submit" id="Agregar">Agregar</button>
+        <button type="button" id="btnRegistro">Mostrar Registro</button>
+    </form>
+</fieldset>
+<h1>Filtros</h1>
+<section>
+        
+    <label for="selectSkillFilter">filtrar modulos que se encuentras asignado a las skills: </label>
+    <div id="selectSkillFilter">
+
+    </div>
+    <button id="filtrarSkills">filtrar</button>
+</section>
+<div class="registro">
+    
+</div>
+<div>
+   
+
+<style>
+    .registro{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-content: center;
+    }
+</style>
